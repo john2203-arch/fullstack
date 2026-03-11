@@ -1,0 +1,40 @@
+*{
+margin:10px; /* remove margens padrão do navegador */
+padding:10px; /* remove espaçamento interno padrão */
+box-sizing:border-box; /* faz largura e altura incluírem padding e borda */
+}
+
+/* BARRA SUPERIOR */
+
+/* seleciona o container da barra superior do site */
+.barraBahia{
+background:white; /* define cor de fundo branca */
+padding:0px 2px; /* espaço interno 10 para cima e baixo e 20 esquerda e direita */
+font: size 20px; /* tamanho da fonte */
+font-family: Arial, Helvetica, sans-serif; /* define a família da fonte */
+}
+.barraBahia a{
+margin-right:90px; /* espaço entre os links */
+text-decoration:none; /* remove o sublinhado padrão dos links */
+font-weight:initial; /* deixa o texto em negrito */
+}
+.Assine{color:#717274;}
+.Últimas {color:#888585;}
+.MinhaBahia{color:#707271;}
+.Salvador {color:#706e6d;}
+.Esportes {color:#757474;}
+.SuaDiversão{color:#6c6d6d;}
+.BrasilMundo{color:rgb(111, 111, 114)}
+.SósevênoCorreio{color:#767979;}
+.Assinantes{color:#737777;}
+
+.imagem{
+    margin:10px; /* remove margens padrão do navegador */
+    padding:10px; /* remove espaçamento interno padrão */
+    box-sizing:border-box; /* faz largura e altura incluírem padding e borda */
+}
+.lasc{
+    padding:0px 2px; /* espaço interno 10 para cima e baixo e 20 esquerda e direita */
+font: size 20px; /* tamanho da fonte */
+font-family: Arial, Helvetica, sans-serif; /* define a família da fonte */
+}
