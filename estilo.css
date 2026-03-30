@@ -1,0 +1,47 @@
+*{
+margin:0; /* remove margens padrão do navegador */
+padding:0; /* remove espaçamento interno padrão */
+box-sizing:border-box; /* faz largura e altura incluírem padding e borda */
+}
+.barra{
+background:white; /* define cor de fundo branca */
+padding:10px 20px; /* espaço interno 10 para cima e baixo e 20 esquerda e direita */
+font-size:14px; /* tamanho da fonte */
+font-family: Arial, Helvetica, sans-serif; /* define a família da fonte */
+}
+.Ass{ color: black;}
+.Ultimas{color: black;}
+.Minhab{color: black;}
+.Salv{color: black;}
+.Sports{color: black;}
+.MD{color: black;}
+.Br{color: black;}
+.SC{color: black;}
+
+.barra a{
+margin-right:90px; /* espaço entre os links */
+text-decoration:none; /* remove o sublinhado padrão dos links */
+font-family: 'Times New Roman', Times, serif; /* deixa o texto em times */
+}
+.texto1{
+    display:flex; /* ativa FLEXBOX para organizar os elementos */
+    align-items:center; /* centraliza os elementos verticalmente */ 
+    padding:15px 40px; /* espaço interno da barra */
+    position:relative; /* necessário para posicionar elementos com position:absolute dentro dele */
+}
+.Image{
+    display:flex;
+    position:relative; /* necessário para posicionar elementos com position:absolute dentro dele */
+}
+.title{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.img2{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    align-items: flex-start;
+}
